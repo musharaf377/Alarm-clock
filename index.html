@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="clock-wrapper">
+    <div class="container">
+      <div class="clock-box-wrapper">
+        <div class="clocl-box">
+          <div class="clock-img">
+            <img src="assets/clock.svg" alt="clock">
+            <h3 id="time">00:00:00 AM</h3>
+          </div>
+          <div class="time-wrapper">
+
+            <div class="column">
+              <select>
+                <option value="Hour" selected hidden>Hour</option>
+              </select>
+            </div>
+
+            <div class="column">
+              <select>
+                <option value="Munite" selected hidden>Munite</option>
+              </select>
+            </div>
+  
+            <div class="column">
+              <select>
+                <option value="AM/PM" selected hidden >AM/PM</option>
+              </select>
+            </div>
+
+          </div>
+
+          <button id="set-btn">Set Alarm</button>
+         
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
